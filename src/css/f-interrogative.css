@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 50px;
+    background: rgb(123,191,232);
+    background: radial-gradient(circle, rgba(123,191,232,1) 0%, rgba(106,174,231,1) 52%, rgba(86,161,221,1) 74%, rgba(71,147,208,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site {
+    font-family: "Varela Round";
+    font-weight: 800;
+    font-style:normal;
+    color: white;
+}
+
+.botao {
+    padding-bottom: 2px;
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(37, 98, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#menu {
+    width: 30px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #5b8dd6;
+}
+
+nav ul {
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    margin-right: 200px;
+}
+
+nav li{
+    display: inline;
+    padding-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #658aee;
+}
+
+nav li a:hover{
+    background-color: white;
+    color:black;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #5b8dd6;
+}
+
+.final {
+    font-family: "Comfortaa";
+    color: white;
+    padding-top: 10px;
+    bottom: 10px;
+}
+.creditos {
+    display: flex;
+    justify-content: space-between;
+}
+.dango {
+    margin-top: -10px;
+}
